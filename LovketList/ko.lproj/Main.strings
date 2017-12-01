@@ -1,0 +1,27 @@
+
+/* Class = "UILabel"; text = "LOVKETLIST"; ObjectID = "2An-uB-juh"; */
+"2An-uB-juh.text" = "LOVKETLIST";
+
+/* Class = "UILabel"; text = "90"; ObjectID = "9R3-6y-lcQ"; */
+"9R3-6y-lcQ.text" = "90";
+
+/* Class = "UILabel"; text = "Sign Up"; ObjectID = "C1o-Qt-5mg"; */
+"C1o-Qt-5mg.text" = "Sign Up";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "G80-gW-7Tc"; */
+"G80-gW-7Tc.normalTitle" = "Login";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "M6e-eP-WEx"; */
+"M6e-eP-WEx.placeholder" = "Password";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "N1f-aY-vKV"; */
+"N1f-aY-vKV.placeholder" = "Email";
+
+/* Class = "UIButton"; normalTitle = "Sign Up"; ObjectID = "bLs-UT-iJq"; */
+"bLs-UT-iJq.normalTitle" = "Sign Up";
+
+/* Class = "UIButton"; normalTitle = "Sign Up"; ObjectID = "bvl-Ae-bc1"; */
+"bvl-Ae-bc1.normalTitle" = "Sign Up";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "iA1-d5-S44"; */
+"iA1-d5-S44.text" = "Label";
