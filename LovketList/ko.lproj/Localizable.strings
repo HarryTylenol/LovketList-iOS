@@ -5,3 +5,41 @@
   Created by 박현기 on 2017. 11. 24..
   Copyright © 2017년 박현기. All rights reserved.
 */
+"password" = "비밀번호";
+"password-check" = "비밀번호 확인";
+"email" = "이메일";
+"login" = "로그인";
+"name" = "이름";
+
+"signin-error" = "회원가입 실패";
+"signin-error-empty" = "모든 입력란을 입력해주셔야 합니다.";
+"signin-error-password-length" = "비밀번호의 길이는 6자 이상이어야 합니다.";
+
+"signin-error-password-check" = "비밀번호를 다시 확인해 주세요.";
+"signin-error-failed" = "회원가입에 실패했습니다. 계정이 이미 생성되어 있을 수도 있습니다.";
+
+"done-lovket" = "달성한 럽킷";
+"not-done-lovket" = "아직 달성하지 않은 럽킷";
+"my-lovket" = "내가 하고싶은 럽킷";
+"see-more" = "자세히 보기";
+"loading" = "로딩 중 입니다...잠시만 기다려 주세요...";
+
+"ok" = "확인";
+"cancel" = "취소";
+
+"make-new-group" = "새 그룹 만들기";
+"make-new-group-description" = "새 그룹을 만드시겠습니까?";
+
+"join-group" = "그룹에 참여하기";
+"join-description" = "이 그룹에 참여하시겠습니까?";
+
+"type-group-code" = "그룹 코드 입력하기";
+
+"type-lovket-title" = "럽킷 제목 입력";
+
+"type-lovket-subtitle" = "럽킷 내용 입력";
+
+"lovket-request" = "럽킷 요청사항이 있습니다.";
+
+"error" = "안돼요!";
+"lovket-error-empty" = "새로운 럽킷을 만들기 위해 모든 입력란을 입력해주셔야 합니다.";

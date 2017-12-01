@@ -5,3 +5,42 @@
   Created by 박현기 on 2017. 11. 24..
   Copyright © 2017년 박현기. All rights reserved.
 */
+"password" = "Password";
+"password-check" = "Password Check";
+"email" = "Email";
+"login" = "Login";
+"name" = "Name";
+
+"signin-error" = "Sign In Error";
+"signin-error-empty" = "Please type all input to sign in.";
+"signin-error-password" = "Password length must be logger than 6.";
+"signin-error-failed" = "Failed Sign In. May be Account is exist.";
+
+"done-lovket" = "Achieved Lovket";
+"not-done-lovket" = "Not achieved Lovket";
+"my-lovket" = "My Lovket";
+
+"see-more" = "See more detail";
+
+"loading" = "Loading...Please wait...";
+
+"ok" = "Ok";
+"cancel" = "Cancel";
+
+"make-new-group" = "Make new group";
+"make-new-group-description" = "Do you want to make new group?";
+
+"join-group" = "Join group";
+"join-description" = "Do you want to join group?";
+
+
+"type-group-code" = "Type group code";
+
+"type-lovket-title" = "Lovket title";
+
+"type-lovket-subtitle" = "Lovket content";
+
+"lovket-request" = "There is lovket request!";
+
+"error" = "Nope!";
+"lovket-error-empty" = "Please type all input to add new lovket";

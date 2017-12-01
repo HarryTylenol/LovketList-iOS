@@ -8,21 +8,18 @@
 
 import Foundation
 
-struct Group : FirebaseModel {
-  
-  func toMap() -> [String : Any] {
-    return [
-      "manUID" : manUID,
-      "womanUID" : womanUID,
-    ]
-  }
-  
-  init(data: [String : Any]) {
-    manUID = data["manUID"] as! String
-    womanUID = data["womanUID"] as! String
-  }
-  
-  var manUID : String
-  var womanUID : String
- 
+struct Group: FirebaseModel {
+
+    func toMap() -> [String: Any] {
+        return [
+            "tokens": tokens,
+        ]
+    }
+
+    init(_ data: [String: Any]?) {
+        tokens = data?["tokens"] as! [String : String]
+    }
+
+    var tokens : [String : String]
+
 }

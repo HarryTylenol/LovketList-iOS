@@ -107,8 +107,6 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
       if user != nil {
         print("Success")
         
-        
-        
       } else {
         print("Failed")
         self.dismiss(animated: false, completion: nil)

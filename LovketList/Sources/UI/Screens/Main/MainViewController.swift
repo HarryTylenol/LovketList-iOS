@@ -16,11 +16,14 @@ class MainViewController: SlideMenuController {
   var navigationDrawerViewController : NavigationDrawerViewController? = nil
   var notificationDrawerViewController : NotificationDrawerViewController? = nil
   
+  
   override func awakeFromNib() {
     
-    listContainerViewController = (UIApplication.shared.delegate as! AppDelegate).dependencyInjector?.getViewController("ListContainer")
-    navigationDrawerViewController = (UIApplication.shared.delegate as! AppDelegate).dependencyInjector?.getViewController("NavigationDrawer")
-    notificationDrawerViewController = (UIApplication.shared.delegate as! AppDelegate).dependencyInjector?.getViewController("NotificationDrawer")
+    listContainerViewController = AppDelegate.di.getViewController("ListContainer")
+    
+    navigationDrawerViewController = AppDelegate.di.getViewController("NavigationDrawer")
+    
+    notificationDrawerViewController = AppDelegate.di.getViewController("NotificationDrawer")
     
     self.mainViewController = UINavigationController(rootViewController: listContainerViewController!)
     self.leftViewController = navigationDrawerViewController

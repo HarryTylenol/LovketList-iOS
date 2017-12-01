@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import FirebaseFirestore
 
 struct Lovket : FirebaseModel {
   
@@ -17,28 +18,44 @@ struct Lovket : FirebaseModel {
   static let DATE = 4
   static let TRAVEL = 5
 
-  var time : Int64
+  static let PROGRESS_DONE = 0
+  static let PROGRESS_NOT_DONE = 1
+  static let PROGRESS_MY_LOVKET = 2
+
+  var time : Date
   var type : Int
+  var progress : Int
   var title : String
   var content : String
   var uploadUID : String
   
   func toMap() -> [String : Any] {
     return [
-      "time" : time,
+      "time" : FieldValue.serverTimestamp(),
       "type" : type,
+      "progress" : progress,
       "title" : title,
       "content" : content,
-      "uploadUID" : uploadUID,
+      "uploadUID" : AuthManager.uid ?? "",
     ]
   }
   
-  init(data: [String : Any]) {
-    type = data["type"] as! Int
-    time = data["time"] as! Int64
-    title = data["title"] as! String
-    content = data["content"] as! String
-    uploadUID = data["uploadUID"] as! String
+  init(_ data: [String : Any]?) {
+    if data != nil {
+      type = data!["type"] as? Int ?? 0
+      progress = data!["progress"] as? Int ?? 0
+      time = data!["time"] as? Date ?? Date()
+      title = data!["title"] as? String ?? ""
+      content = data!["content"] as? String ?? ""
+      uploadUID = data!["uploadUID"] as? String ?? ""
+    } else {
+      type = 0
+      progress = 0
+      time = Date()
+      title = ""
+      content = ""
+      uploadUID = ""
+    }
   }
 
 }

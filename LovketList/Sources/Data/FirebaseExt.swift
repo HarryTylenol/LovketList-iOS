@@ -1,5 +1,5 @@
 //
-//  FirestoreExt.swift
+//  FirebaseExt.swift
 //  LovketList
 //
 //  Created by 박현기 on 2017. 11. 23..
@@ -8,11 +8,24 @@
 
 import Foundation
 import FirebaseFirestore
+import FirebaseAuth
 
+// #define index int
 typealias OnSuccessCallback =  () -> Void
-typealias OnErrorCallback =  (Error) -> Void
-typealias QueryCallback<MODEL : FirebaseModel> = ([MODEL]?) -> Void
-typealias SingleQueryCallback<MODEL : FirebaseModel> = (MODEL?) -> Void
+typealias OnErrorCallback =  (Error?) -> Void
+typealias QueryCallback<MODEL> = ([MODEL]?) -> Void
+typealias SingleQueryCallback<MODEL> = (MODEL?) -> Void
+typealias OnUserAuthCallback = (FirebaseAuth.User?) -> Void
+typealias OnUserDataCallback = (User?) -> Void
+
+
+extension DocumentSnapshot {
+  
+  func toLovket() -> Lovket {
+    return Lovket(self.data())
+  }
+  
+}
 
 extension DocumentReference {
   
@@ -20,9 +33,9 @@ extension DocumentReference {
     delete() {
       error in
       if error != nil {
-        onSuccessCallback()
-      } else {
         onErrorCallback(error!)
+      } else {
+        onSuccessCallback()
       }
     }
   }
@@ -31,13 +44,13 @@ extension DocumentReference {
 
 extension CollectionReference {
   
-  func add(model : FirebaseModel, _ onSuccessCallback : @escaping OnSuccessCallback, _ onErrorCallback : @escaping OnErrorCallback) {
-    addDocument(data: model.toMap()) {
+  func add(model : [String : Any], _ onSuccessCallback : @escaping OnSuccessCallback, _ onErrorCallback : @escaping OnErrorCallback) {
+    addDocument(data: model) {
       error in
       if error != nil {
-        onSuccessCallback()
-      } else {
         onErrorCallback(error!)
+      } else {
+        onSuccessCallback()
       }
     }
   }

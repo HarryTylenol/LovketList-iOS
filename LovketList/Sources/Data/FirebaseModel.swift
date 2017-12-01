@@ -7,3 +7,8 @@
 //
 
 import Foundation
+
+protocol FirebaseModel {
+    func toMap() -> [String: Any]
+    init(_ data: [String: Any]?)
+}

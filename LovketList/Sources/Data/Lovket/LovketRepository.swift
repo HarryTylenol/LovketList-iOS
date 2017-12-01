@@ -14,63 +14,66 @@ class LovketRepository {
     self.firestore = firestore
   }
   
-  static let PROGRESS_DONE = "done"
-  static let PROGRESS_DENIED = "denied"
-  static let PROGRESS_NOT_DONE = "not-done"
-  static let GROUP = "group"
+  static var documentLists = [[DocumentSnapshot](), [DocumentSnapshot](), [DocumentSnapshot]()]
+  class func refreshList() {
+    LovketRepository.documentLists = [[DocumentSnapshot](), [DocumentSnapshot](), [DocumentSnapshot]()]
+  }
   
-  func queryOnlyFiveLovket(progress: String, groupKey: String, queryCallback: @escaping QueryCallback<Lovket>) {
+  func addNewLovket(lovket: Lovket, onSuccessCallback : @escaping OnSuccessCallback, onErrorCallback : @escaping OnErrorCallback) {
     
-    let query = firestore.collection(LovketRepository.GROUP)
-      .document(groupKey)
-      .collection(progress)
-      .order(by: "time", descending: true)
-      .limit(to: 5)
-    
-    query.getDocuments { (querySnapshot, error) in
-      guard querySnapshot != nil else {
-        print("Error : \(error.debugDescription)")
-        queryCallback([])
-        return
-      }
-      
-      guard (querySnapshot?.documents.last) != nil else {
-        queryCallback([])
-        return
-      }
-      
-      queryCallback(querySnapshot?.documents.flatMap({ Lovket(data: $0.data()) }))
+    // User 가 Null 이면 Group Key 를 받아올 수 없기 때문에 에러로 처리해줍니다.
+    if UserRepository.user == nil {
+      print("Error UserRepository.user is null")
+      onErrorCallback(nil)
+      return
     }
+    
+    self.firestore.collection(GroupRepository.GROUP)
+      .document(UserRepository.user!.groupKey)
+      .collection("lovket")
+      .add(model: lovket.toMap(), onSuccessCallback, onErrorCallback)
     
   }
   
-  func queryByProgress(progress: String, groupKey: String,
-                       _ lastDocumentSnapshot: DocumentSnapshot? = nil,
-                       queryCallback: @escaping QueryCallback<DocumentSnapshot>) {
+  // Lovket 을 Progress 에 따라 쿼리하는 부분
+  func queryLovket(progress: Int, onSuccessCallback : @escaping OnSuccessCallback, onErrorCallback : @escaping OnErrorCallback) {
     
-    var query = firestore.collection(LovketRepository.GROUP)
-      .document(groupKey)
-      .collection(progress)
-      .order(by: "time", descending: true)
-      .limit(to: 20)
-    
-    if lastDocumentSnapshot != nil {
-      query = query.start(afterDocument: lastDocumentSnapshot!)
+    // User 가 Null 이면 Group Key 를 받아올 수 없기 때문에 에러로 처리해줍니다.
+    if UserRepository.user == nil {
+      print("Error UserRepository.user is null")
+      onErrorCallback(nil)
+      return
     }
     
-    query.getDocuments { (querySnapshot, error) in
-      
-      guard querySnapshot != nil else {
-        print("Error : \(error.debugDescription)")
-        return
+    // Query 작성
+    // /group/{GROUP_KEY}/lovket/{PROGRESS} 에서 PROGRESS 에 따라 쿼리
+    // 10 개씩 가져옴
+    var query = self.firestore.collection(GroupRepository.GROUP)
+      .document(UserRepository.user!.groupKey).collection("lovket")
+      .whereField("progress", isEqualTo: progress)
+      .order(by: "time", descending : true)
+      .limit(to: 10)
+    
+    // 만약에 이전에 불러온 내역이 있으면 마지막 DocumentSnapshot 부터 Query 시작.
+    if (!LovketRepository.documentLists[progress].isEmpty) {
+      query = query.start(afterDocument: LovketRepository.documentLists[progress].last!)
+    }
+    
+    // Query 하는 부분
+    query.getDocuments { (q, e) in
+      if e != nil {
+        print("Error queryLovket \(e!)")
+        onErrorCallback(e!)
+      } else if q != nil {
+        
+        print("Success queryLovket \(q!.documents)")
+        LovketRepository.documentLists[progress] += q!.documents
+        onSuccessCallback()
+        
+      } else {
+        print("Error queryLovket \(progress)")
+        onErrorCallback(nil)
       }
-      
-      guard (querySnapshot?.documents.last) != nil else {
-        return
-      }
-      
-      queryCallback(querySnapshot?.documents)
-      
     }
     
   }

@@ -1,0 +1,6 @@
+framework module Pods_LovketListTests {
+  umbrella header "Pods-LovketListTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

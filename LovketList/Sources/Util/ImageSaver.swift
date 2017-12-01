@@ -16,7 +16,6 @@ class ImageSaver {
   static var images = [String : [String]]()
   
   class func saveImage() {
-
     
     // ((resource.jsonDict["hits"] as! [Any])[0] as! [String : Any])["webformatURL"] as! String
     keywords.forEach { keyword in
@@ -25,7 +24,7 @@ class ImageSaver {
         let data = resource.jsonDict
         if !data.isEmpty {
           ImageSaver.images[keyword] = (data["hits"] as! [Any]).map({ any in
-            (any as! [String : Any])["webformatURL"] as! String
+            (any as! [String : Any])["previewURL"] as! String
           })
         }
       }.load()

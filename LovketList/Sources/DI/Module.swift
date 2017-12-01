@@ -7,3 +7,13 @@
 //
 
 import Foundation
+import Swinject
+
+
+protocol Module {
+  func build(container : Container)
+}
+
+protocol StoryboardModule {
+  func build(container : Container)
+}

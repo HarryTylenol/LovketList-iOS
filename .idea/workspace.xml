@@ -1,0 +1,771 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0c00ecfd-d2a0-414b-bc61-b0e93839588c" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/KakaoOpenSDK.framework/Headers" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/KakaoOpenSDK.framework/KakaoOpenSDK" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/KakaoOpenSDK.framework/Resources" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/KakaoOpenSDK.framework/Versions/A/Headers/KOAccessTokenInfo.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/KakaoOpenSDK.framework/Versions/A/Headers/KOAgeAuthQueryStringBuilder.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/KakaoOpenSDK.framework/Versions/A/Headers/KOAppCall.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/KakaoOpenSDK.framework/Versions/A/Headers/KOBaseContext.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/KakaoOpenSDK.framework/Versions/A/Headers/KOChat.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/KakaoOpenSDK.framework/Versions/A/Headers/KOChatContext.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/KakaoOpenSDK.framework/Versions/A/Headers/KOError.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/KakaoOpenSDK.framework/Versions/A/Headers/KOFriend.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/KakaoOpenSDK.framework/Versions/A/Headers/KOFriendContext.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/KakaoOpenSDK.framework/Versions/A/Headers/KOFriendOperation.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/KakaoOpenSDK.framework/Versions/A/Headers/KOHTTPMethod.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/KakaoOpenSDK.framework/Versions/A/Headers/KOImages.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/KakaoOpenSDK.framework/Versions/A/Headers/KOLoginButton.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/KakaoOpenSDK.framework/Versions/A/Headers/KOPushTokenInfo.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/KakaoOpenSDK.framework/Versions/A/Headers/KOSession.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/KakaoOpenSDK.framework/Versions/A/Headers/KOSessionTask+AgeAuthAPI.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/KakaoOpenSDK.framework/Versions/A/Headers/KOSessionTask+FriendAPI.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/KakaoOpenSDK.framework/Versions/A/Headers/KOSessionTask+PushAPI.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/KakaoOpenSDK.framework/Versions/A/Headers/KOSessionTask+StoryAPI.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/KakaoOpenSDK.framework/Versions/A/Headers/KOSessionTask+TalkAPI.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/KakaoOpenSDK.framework/Versions/A/Headers/KOSessionTask+TokenAPI.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/KakaoOpenSDK.framework/Versions/A/Headers/KOSessionTask+UserManagementAPI.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/KakaoOpenSDK.framework/Versions/A/Headers/KOSessionTask.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/KakaoOpenSDK.framework/Versions/A/Headers/KOStorageImageInfo.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/KakaoOpenSDK.framework/Versions/A/Headers/KOStoryActorInfo.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/KakaoOpenSDK.framework/Versions/A/Headers/KOStoryCommentInfo.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/KakaoOpenSDK.framework/Versions/A/Headers/KOStoryLikeInfo.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/KakaoOpenSDK.framework/Versions/A/Headers/KOStoryLinkInfo.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/KakaoOpenSDK.framework/Versions/A/Headers/KOStoryMyStoryImageInfo.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/KakaoOpenSDK.framework/Versions/A/Headers/KOStoryMyStoryInfo.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/KakaoOpenSDK.framework/Versions/A/Headers/KOStoryPostInfo.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/KakaoOpenSDK.framework/Versions/A/Headers/KOStoryProfile.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/KakaoOpenSDK.framework/Versions/A/Headers/KOTalkMessageSending.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/KakaoOpenSDK.framework/Versions/A/Headers/KOTalkProfile.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/KakaoOpenSDK.framework/Versions/A/Headers/KOUser.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/KakaoOpenSDK.framework/Versions/A/Headers/KOUserInfo.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/KakaoOpenSDK.framework/Versions/A/Headers/KOUtils.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/KakaoOpenSDK.framework/Versions/A/Headers/KakaoOpenSDK.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/KakaoOpenSDK.framework/Versions/A/Headers/KakaoPushMessageObject.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/KakaoOpenSDK.framework/Versions/A/Headers/KakaoPushMessagePropertyForApns.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/KakaoOpenSDK.framework/Versions/A/Headers/KakaoPushMessagePropertyForGcm.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/KakaoOpenSDK.framework/Versions/A/Headers/KakaoTalkLinkAction.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/KakaoOpenSDK.framework/Versions/A/Headers/KakaoTalkLinkObject.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/KakaoOpenSDK.framework/Versions/A/Headers/NSDictionary+SafeValue.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/KakaoOpenSDK.framework/Versions/A/Resources/KakaoOpenSDK" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/KakaoOpenSDK.framework/Versions/Current" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Assets.xcassets/Contents.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Assets.xcassets/ic_add_18pt.imageset/Contents.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Assets.xcassets/ic_add_18pt.imageset/ic_add_18pt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Assets.xcassets/ic_add_18pt.imageset/ic_add_18pt_2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Assets.xcassets/ic_add_18pt.imageset/ic_add_18pt_3x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Assets.xcassets/ic_add_white_18pt.imageset/Contents.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Assets.xcassets/ic_add_white_18pt.imageset/ic_add_white_18pt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Assets.xcassets/ic_add_white_18pt.imageset/ic_add_white_18pt_2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Assets.xcassets/ic_add_white_18pt.imageset/ic_add_white_18pt_3x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Assets.xcassets/ic_arrow_back_36pt.imageset/Contents.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Assets.xcassets/ic_arrow_back_36pt.imageset/ic_arrow_back_36pt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Assets.xcassets/ic_arrow_back_36pt.imageset/ic_arrow_back_36pt_2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Assets.xcassets/ic_arrow_back_36pt.imageset/ic_arrow_back_36pt_3x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Assets.xcassets/ic_cake_18pt.imageset/Contents.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Assets.xcassets/ic_cake_18pt.imageset/ic_cake_18pt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Assets.xcassets/ic_cake_18pt.imageset/ic_cake_18pt_2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Assets.xcassets/ic_cake_18pt.imageset/ic_cake_18pt_3x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Assets.xcassets/ic_check_circle_18pt.imageset/Contents.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Assets.xcassets/ic_check_circle_18pt.imageset/ic_check_circle_18pt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Assets.xcassets/ic_check_circle_18pt.imageset/ic_check_circle_18pt_2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Assets.xcassets/ic_check_circle_18pt.imageset/ic_check_circle_18pt_3x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Assets.xcassets/ic_date_range_18pt.imageset/Contents.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Assets.xcassets/ic_date_range_18pt.imageset/ic_date_range_18pt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Assets.xcassets/ic_date_range_18pt.imageset/ic_date_range_18pt_2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Assets.xcassets/ic_date_range_18pt.imageset/ic_date_range_18pt_3x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Assets.xcassets/ic_event_white_18pt.imageset/Contents.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Assets.xcassets/ic_event_white_18pt.imageset/ic_event_white_18pt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Assets.xcassets/ic_event_white_18pt.imageset/ic_event_white_18pt_2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Assets.xcassets/ic_event_white_18pt.imageset/ic_event_white_18pt_3x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Assets.xcassets/ic_favorite_18pt.imageset/Contents.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Assets.xcassets/ic_favorite_18pt.imageset/ic_favorite_18pt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Assets.xcassets/ic_favorite_18pt.imageset/ic_favorite_18pt_2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Assets.xcassets/ic_favorite_18pt.imageset/ic_favorite_18pt_3x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Assets.xcassets/ic_flight_18pt.imageset/Contents.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Assets.xcassets/ic_flight_18pt.imageset/ic_flight_18pt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Assets.xcassets/ic_flight_18pt.imageset/ic_flight_18pt_2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Assets.xcassets/ic_flight_18pt.imageset/ic_flight_18pt_3x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Assets.xcassets/ic_help_18pt.imageset/Contents.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Assets.xcassets/ic_help_18pt.imageset/ic_help_18pt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Assets.xcassets/ic_help_18pt.imageset/ic_help_18pt_2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Assets.xcassets/ic_help_18pt.imageset/ic_help_18pt_3x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Assets.xcassets/ic_highlight_off_18pt.imageset/Contents.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Assets.xcassets/ic_highlight_off_18pt.imageset/ic_highlight_off_18pt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Assets.xcassets/ic_highlight_off_18pt.imageset/ic_highlight_off_18pt_2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Assets.xcassets/ic_highlight_off_18pt.imageset/ic_highlight_off_18pt_3x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Assets.xcassets/ic_map_18pt.imageset/Contents.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Assets.xcassets/ic_map_18pt.imageset/ic_map_18pt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Assets.xcassets/ic_map_18pt.imageset/ic_map_18pt_2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Assets.xcassets/ic_map_18pt.imageset/ic_map_18pt_3x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Assets.xcassets/ic_menu_18pt.imageset/Contents.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Assets.xcassets/ic_menu_18pt.imageset/ic_menu_18pt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Assets.xcassets/ic_menu_18pt.imageset/ic_menu_18pt_2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Assets.xcassets/ic_menu_18pt.imageset/ic_menu_18pt_3x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Assets.xcassets/ic_notifications_18pt.imageset/Contents.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Assets.xcassets/ic_notifications_18pt.imageset/ic_notifications_18pt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Assets.xcassets/ic_notifications_18pt.imageset/ic_notifications_18pt_2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Assets.xcassets/ic_notifications_18pt.imageset/ic_notifications_18pt_3x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Assets.xcassets/ic_person_18pt.imageset/Contents.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Assets.xcassets/ic_person_18pt.imageset/ic_person_18pt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Assets.xcassets/ic_person_18pt.imageset/ic_person_18pt_2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Assets.xcassets/ic_person_18pt.imageset/ic_person_18pt_3x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Assets.xcassets/ic_place_18pt.imageset/Contents.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Assets.xcassets/ic_place_18pt.imageset/ic_place_18pt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Assets.xcassets/ic_place_18pt.imageset/ic_place_18pt_2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Assets.xcassets/ic_place_18pt.imageset/ic_place_18pt_3x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Assets.xcassets/ic_restaurant_menu_18pt.imageset/Contents.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Assets.xcassets/ic_restaurant_menu_18pt.imageset/ic_restaurant_menu_18pt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Assets.xcassets/ic_restaurant_menu_18pt.imageset/ic_restaurant_menu_18pt_2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Assets.xcassets/ic_restaurant_menu_18pt.imageset/ic_restaurant_menu_18pt_3x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Sources/DI/AppDelegate.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Sources/DI/DependencyInjector.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Sources/DI/InjectableModules.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Sources/DI/InjectableStoryboards.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Sources/DI/Module.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Sources/Data/FirebaseExt.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Sources/Data/FirebaseModel.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Sources/Data/Group/Group.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Sources/Data/Group/GroupRepository.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Sources/Data/Lovket/Lovket.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Sources/Data/Lovket/LovketRepository.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Sources/UI/Screens/Login/CheckGroupViewController.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Sources/UI/Screens/Login/LoginViewController.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Sources/UI/Screens/Main/AddViewController.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Sources/UI/Screens/Main/DetailViewController.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Sources/UI/Screens/Main/ListContainerViewController.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Sources/UI/Screens/Main/MainViewController.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Sources/UI/Screens/Main/MoreListViewController.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Sources/UI/Screens/Main/NavigationDrawerViewController.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Sources/UI/UIExt.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Sources/UI/View/GradientView.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Sources/UI/View/LovketHeaderItemCell.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Sources/UI/View/LovketListItemCell.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Sources/Util/CalendarUtil.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Sources/Util/DummyData.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Sources/Util/ImageSaver.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/Sources/Util/StringExt.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/en.lproj/LaunchScreen.strings" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/en.lproj/Localizable.strings" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/en.lproj/Main.strings" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/ko.lproj/LaunchScreen.strings" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/ko.lproj/Localizable.strings" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/LovketList/ko.lproj/Main.strings" />
+      <change beforePath="$PROJECT_DIR$/LovketList.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/LovketList.xcodeproj/project.pbxproj" />
+      <change beforePath="$PROJECT_DIR$/LovketList/AppDelegate.swift" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/LovketList/Assets.xcassets/AppIcon.appiconset/Contents.json" afterPath="$PROJECT_DIR$/LovketList/Assets.xcassets/AppIcon.appiconset/Contents.json" />
+      <change beforePath="$PROJECT_DIR$/LovketList/Base.lproj/LaunchScreen.storyboard" afterPath="$PROJECT_DIR$/LovketList/Base.lproj/LaunchScreen.storyboard" />
+      <change beforePath="$PROJECT_DIR$/LovketList/Base.lproj/Main.storyboard" afterPath="$PROJECT_DIR$/LovketList/Base.lproj/Main.storyboard" />
+      <change beforePath="$PROJECT_DIR$/LovketList/Info.plist" afterPath="$PROJECT_DIR$/LovketList/Info.plist" />
+      <change beforePath="$PROJECT_DIR$/LovketList/ViewController.swift" afterPath="" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="iphoneos_" />
+  <component name="FileColors">
+    <fileColor scope="Non-Project Files (Material Default)" color="415967" />
+    <fileColor scope="Non-Project Files (Material Darker)" color="474747" />
+    <fileColor scope="Non-Project Files (Material Lighter)" color="D2D4D5" />
+    <fileColor scope="Non-Project Files (Material Palenight)" color="4E5579" />
+    <fileColor scope="Non-Project Files (Material Default)" color="2E3C43" />
+    <fileColor scope="Non-Project Files (Material Darker)" color="323232" />
+    <fileColor scope="Non-Project Files (Material Lighter)" color="eae8e8" />
+    <fileColor scope="Non-Project Files (Material Palenight)" color="2f2e43" />
+    <fileColor scope="Non-Project Files (Material Oceanic)" color="2E3C43" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="LovketRepository.swift" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LovketList/Sources/Data/Lovket/LovketRepository.swift">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1872">
+              <caret line="68" column="52" lean-forward="false" selection-start-line="68" selection-start-column="52" selection-end-line="68" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="modificationStamps">
+      <map>
+        <entry key="$USER_HOME$/Desktop/Development/Android/CatchaGlobal/Android" value="2962752183000" />
+        <entry key="$USER_HOME$/Desktop/Development/Android/CatchaGlobal/Server" value="1482795120000" />
+        <entry key="$USER_HOME$/Desktop/Development/Android/CatchaServer" value="1482795120000" />
+        <entry key="$USER_HOME$/Desktop/Development/Android/kotlin-spring-example-master" value="2912525040000" />
+        <entry key="$USER_HOME$/Desktop/Development/untitled" value="1487660043000" />
+        <entry key="$USER_HOME$/Downloads/RecyclerView-FastScroll-master" value="2947587428000" />
+        <entry key="$USER_HOME$/Downloads/RecyclerView-FastScroll-master-2" value="2947587428000" />
+      </map>
+    </option>
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/LovketList/Sources/Data/FirestoreExt.swift" />
+        <option value="$PROJECT_DIR$/LovketList/Sources/Data/Group/Group.swift" />
+        <option value="$PROJECT_DIR$/LovketList/Sources/Data/FirebaseModel.swift" />
+        <option value="$PROJECT_DIR$/LovketList/Sources/Data/Repository.swift" />
+        <option value="$PROJECT_DIR$/LovketList/Sources/Data/lovket/Lovket.swift" />
+        <option value="$PROJECT_DIR$/LovketList/Sources/Data/lovket/LovketRepository.swift" />
+        <option value="$PROJECT_DIR$/LovketList/Sources/Domain/AuthManager.swift" />
+        <option value="$PROJECT_DIR$/LovketList/Sources/UI/LoginViewController.swift" />
+        <option value="$PROJECT_DIR$/LovketList/Sources/UI/UIExt.swift" />
+        <option value="$PROJECT_DIR$/LovketList/Sources/DI/InjectableModules.swift" />
+        <option value="$PROJECT_DIR$/LovketList/Sources/Data/FirebaseExt.swift" />
+        <option value="$PROJECT_DIR$/LovketList/Sources/Data/User/User.swift" />
+        <option value="$PROJECT_DIR$/LovketList/ko.lproj/Localizable.strings" />
+        <option value="$PROJECT_DIR$/LovketList/en.lproj/Localizable.strings" />
+        <option value="$PROJECT_DIR$/LovketList/Sources/Data/User/UserRepository.swift" />
+        <option value="$PROJECT_DIR$/LovketList/Sources/DI/AppDelegate.swift" />
+        <option value="$PROJECT_DIR$/LovketList/Sources/UI/Screens/Main/ListContainerViewController.swift" />
+        <option value="$PROJECT_DIR$/LovketList/Sources/Data/Lovket/Lovket.swift" />
+        <option value="$PROJECT_DIR$/LovketList/Sources/Data/Group/GroupRepository.swift" />
+        <option value="$PROJECT_DIR$/LovketList/Sources/Data/Lovket/LovketRepository.swift" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>C/C++</id>
+          </State>
+          <State>
+            <id>Type checksC/C++</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>C/C++</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Cidr.FilesView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="LovketList" type="1d218c8b:XcodeProjectNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="LovketList" type="1d218c8b:XcodeProjectNode" />
+              <item name="LovketList" type="fcab9f18:XcodeViewNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="LovketList" type="1d218c8b:XcodeProjectNode" />
+              <item name="LovketList" type="fcab9f18:XcodeViewNode" />
+              <item name="Sources" type="fcab9f18:XcodeViewNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="LovketList" type="1d218c8b:XcodeProjectNode" />
+              <item name="LovketList" type="fcab9f18:XcodeViewNode" />
+              <item name="Sources" type="fcab9f18:XcodeViewNode" />
+              <item name="Data" type="fcab9f18:XcodeViewNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="LovketList" type="1d218c8b:XcodeProjectNode" />
+              <item name="LovketList" type="fcab9f18:XcodeViewNode" />
+              <item name="Sources" type="fcab9f18:XcodeViewNode" />
+              <item name="Data" type="fcab9f18:XcodeViewNode" />
+              <item name="Group" type="fcab9f18:XcodeViewNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="LovketList" type="1d218c8b:XcodeProjectNode" />
+              <item name="LovketList" type="fcab9f18:XcodeViewNode" />
+              <item name="Sources" type="fcab9f18:XcodeViewNode" />
+              <item name="Data" type="fcab9f18:XcodeViewNode" />
+              <item name="Lovket" type="fcab9f18:XcodeViewNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="LovketList" type="1d218c8b:XcodeProjectNode" />
+              <item name="LovketList" type="fcab9f18:XcodeViewNode" />
+              <item name="Sources" type="fcab9f18:XcodeViewNode" />
+              <item name="Data" type="fcab9f18:XcodeViewNode" />
+              <item name="User" type="fcab9f18:XcodeViewNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="LovketList" type="1d218c8b:XcodeProjectNode" />
+              <item name="LovketList" type="fcab9f18:XcodeViewNode" />
+              <item name="Sources" type="fcab9f18:XcodeViewNode" />
+              <item name="DI" type="fcab9f18:XcodeViewNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="LovketList" type="1d218c8b:XcodeProjectNode" />
+              <item name="LovketList" type="fcab9f18:XcodeViewNode" />
+              <item name="Sources" type="fcab9f18:XcodeViewNode" />
+              <item name="Domain" type="fcab9f18:XcodeViewNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="LovketList" type="1d218c8b:XcodeProjectNode" />
+              <item name="LovketList" type="fcab9f18:XcodeViewNode" />
+              <item name="Sources" type="fcab9f18:XcodeViewNode" />
+              <item name="UI" type="fcab9f18:XcodeViewNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="LovketList" type="1d218c8b:XcodeProjectNode" />
+              <item name="LovketList" type="fcab9f18:XcodeViewNode" />
+              <item name="Sources" type="fcab9f18:XcodeViewNode" />
+              <item name="UI" type="fcab9f18:XcodeViewNode" />
+              <item name="Screens" type="fcab9f18:XcodeViewNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="LovketList" type="1d218c8b:XcodeProjectNode" />
+              <item name="LovketList" type="fcab9f18:XcodeViewNode" />
+              <item name="Sources" type="fcab9f18:XcodeViewNode" />
+              <item name="UI" type="fcab9f18:XcodeViewNode" />
+              <item name="Screens" type="fcab9f18:XcodeViewNode" />
+              <item name="Login" type="fcab9f18:XcodeViewNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="LovketList" type="1d218c8b:XcodeProjectNode" />
+              <item name="LovketList" type="fcab9f18:XcodeViewNode" />
+              <item name="Sources" type="fcab9f18:XcodeViewNode" />
+              <item name="UI" type="fcab9f18:XcodeViewNode" />
+              <item name="Screens" type="fcab9f18:XcodeViewNode" />
+              <item name="Main" type="fcab9f18:XcodeViewNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="LovketList" type="1d218c8b:XcodeProjectNode" />
+              <item name="LovketList" type="fcab9f18:XcodeViewNode" />
+              <item name="Localizable.strings" type="fcab9f18:XcodeViewNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Swift" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="OBJC.PRESERVED_TARGET_SELECTION" value="LovketList" />
+    <property name="SearchEverywhereHistoryKey" value="LoginV&#9;null&#9;null" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="LovketList" type="AppleRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LovketList" TARGET_NAME="LovketList" CONFIG_NAME="Debug" SCHEME_NAME="LovketList" RUN_TARGET_PROJECT_NAME="LovketList" RUN_TARGET_NAME="LovketList" MAKE_ACTIVE="TRUE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0c00ecfd-d2a0-414b-bc61-b0e93839588c" name="Default" comment="" />
+      <created>1511269506317</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1511269506317</updated>
+      <workItem from="1511269509847" duration="7994000" />
+      <workItem from="1511431091442" duration="8984000" />
+      <workItem from="1511760639164" duration="2203000" />
+      <workItem from="1512029339902" duration="4957000" />
+      <workItem from="1512067722506" duration="826000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="24964000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17152777" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.53534186" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32929438" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32929438" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/LovketList/Sources/Data/Lovket/LovketRepository.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2108">
+          <caret line="68" column="46" lean-forward="false" selection-start-line="68" selection-start-column="46" selection-end-line="68" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LovketList/Sources/Data/User/UserRepository.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1023">
+          <caret line="33" column="34" lean-forward="false" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+          <folding>
+            <element signature="e#91#108#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LovketList/Sources/UI/UIExt.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1280">
+          <caret line="32" column="3" lean-forward="true" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LovketList/Sources/UI/LoginViewController.swift" />
+    <entry file="file://$PROJECT_DIR$/KakaoOpenSDK.framework/Headers/KOSessionTask.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="24" column="14" lean-forward="false" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KakaoOpenSDK.framework/Headers/KOSessionTask+UserManagementAPI.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="34" column="61" lean-forward="true" selection-start-line="34" selection-start-column="61" selection-end-line="34" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LovketList/Sources/Data/FirebaseModel.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LovketList/Sources/Data/Group/Group.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LovketList/Sources/Data/Repository.swift" />
+    <entry file="file://$PROJECT_DIR$/LovketList/Sources/UI/MainViewController.swift" />
+    <entry file="file://$PROJECT_DIR$/LovketList/Sources/Domain/AuthManager.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LovketList/Sources/UI/LoginViewController.swift" />
+    <entry file="file://$PROJECT_DIR$/LovketList/Sources/UI/UIExt.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="32" column="3" lean-forward="false" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LovketList/Sources/DI/Module.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LovketList/Sources/DI/InjectableModules.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="30" column="20" lean-forward="true" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+          <folding>
+            <element signature="e#135#152#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LovketList/Sources/Data/FirebaseExt.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="18" column="34" lean-forward="false" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="appcode.project-settings://d0de7166">
+      <provider selected="true" editor-type-id="AppCode.ProjectSettings">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LovketList/en.lproj/Localizable.strings">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LovketList/ko.lproj/Localizable.strings">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LovketList/Sources/DI/AppDelegate.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LovketList/Sources/Data/User/UserRepository.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding>
+            <element signature="e#91#108#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LovketList/Sources/DI/DependencyInjector.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LovketList/Sources/Data/User/User.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LovketList/Sources/UI/Screens/Main/ListContainerViewController.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="51" column="39" lean-forward="false" selection-start-line="51" selection-start-column="39" selection-end-line="51" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LovketList/Sources/Data/Lovket/Lovket.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="22" column="35" lean-forward="false" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LovketList/Sources/Data/Group/GroupRepository.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LovketList/Sources/Data/Lovket/LovketRepository.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1872">
+          <caret line="68" column="52" lean-forward="false" selection-start-line="68" selection-start-column="52" selection-end-line="68" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

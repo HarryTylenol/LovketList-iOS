@@ -8,19 +8,37 @@
 
 import UIKit
 import Siesta
+import RMDateSelectionViewController
 
 class DetailViewController : UIViewController {
   
+  var lovket : Lovket!
+  let icons = [#imageLiteral(resourceName: "ic_restaurant_menu_18pt"), #imageLiteral(resourceName: "ic_map_18pt"), #imageLiteral(resourceName: "ic_cake_18pt"), #imageLiteral(resourceName: "ic_favorite_18pt"), #imageLiteral(resourceName: "ic_date_range_18pt"), #imageLiteral(resourceName: "ic_flight_18pt")]
+  let keywords = ["food", "place", "celebrate", "love", "calendar", "abroad"]
   
   @IBOutlet var backgroundImageView: UIImageView!
   @IBOutlet var iconImageView: UIImageView!
   @IBOutlet var subtitleLabel: UILabel!
   @IBOutlet var titleLabel: UILabel!
   
-  var lovket : Lovket!
-  let icons = [#imageLiteral(resourceName: "ic_restaurant_menu_18pt"), #imageLiteral(resourceName: "ic_map_18pt"), #imageLiteral(resourceName: "ic_cake_18pt"), #imageLiteral(resourceName: "ic_favorite_18pt"), #imageLiteral(resourceName: "ic_date_range_18pt"), #imageLiteral(resourceName: "ic_flight_18pt")]
-  let keywords = ["food", "place", "celebrate", "love", "calendar", "abroad"]
-  
+  @IBOutlet var addCalendarButton: UIButton!
+  @IBAction func onAddCalendarClicked(_ sender: Any) {
+    
+    let doneAction = RMAction<UIDatePicker>.init(title: "Add", style: RMActionStyle.done) { controller in
+      CalendarUtil.addEventToCalendar(title: self.lovket.title, description: self.lovket.content, date : controller.contentView.date)
+    }
+    
+    let cancelAction = RMAction<UIDatePicker>.init(title: "Cancel", style: RMActionStyle.cancel) { controller in
+    }
+    
+    let dateSelectViewController = RMDateSelectionViewController.init(
+      style: RMActionControllerStyle.sheetWhite,
+      title : "Select Date", message : "Select date to add calendar event",
+      select: doneAction, andCancel: cancelAction)!
+    
+    self.present(dateSelectViewController, animated: true, completion: nil)
+    
+  }
   override var preferredStatusBarStyle: UIStatusBarStyle {
     return .lightContent
   }
@@ -28,6 +46,7 @@ class DetailViewController : UIViewController {
   override func viewWillAppear(_ animated: Bool) {
     super.viewWillAppear(animated)
     navigationController?.navigationBar.tintColor = UIColor.white
+    navigationController?.navigationBar.backgroundColor = UIColor.clear
     navigationController?.navigationBar.barStyle = .blackOpaque
     navigationController?.navigationBar.isTranslucent = true;
   }
@@ -35,6 +54,7 @@ class DetailViewController : UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     
+    addCalendarButton.layer.cornerRadius = 10
     titleLabel.sizeToFit()
     subtitleLabel.sizeToFit()
     

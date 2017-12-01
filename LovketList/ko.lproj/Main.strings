@@ -6,22 +6,27 @@
 "9R3-6y-lcQ.text" = "90";
 
 /* Class = "UILabel"; text = "Sign Up"; ObjectID = "C1o-Qt-5mg"; */
-"C1o-Qt-5mg.text" = "Sign Up";
+"C1o-Qt-5mg.text" = "회원가입";
 
 /* Class = "UIButton"; normalTitle = "Login"; ObjectID = "G80-gW-7Tc"; */
-"G80-gW-7Tc.normalTitle" = "Login";
-
-/* Class = "UITextField"; placeholder = "Password"; ObjectID = "M6e-eP-WEx"; */
-"M6e-eP-WEx.placeholder" = "Password";
-
-/* Class = "UITextField"; placeholder = "Email"; ObjectID = "N1f-aY-vKV"; */
-"N1f-aY-vKV.placeholder" = "Email";
+"G80-gW-7Tc.normalTitle" = "로그인";
 
 /* Class = "UIButton"; normalTitle = "Sign Up"; ObjectID = "bLs-UT-iJq"; */
 "bLs-UT-iJq.normalTitle" = "Sign Up";
 
 /* Class = "UIButton"; normalTitle = "Sign Up"; ObjectID = "bvl-Ae-bc1"; */
-"bvl-Ae-bc1.normalTitle" = "Sign Up";
+"bvl-Ae-bc1.normalTitle" = "회원가입";
 
-/* Class = "UILabel"; text = "Label"; ObjectID = "iA1-d5-S44"; */
-"iA1-d5-S44.text" = "Label";
+"iA1-d5-S44.text" = "너와 나의 양동이 온도";
+
+"a9t-uP-vDH.normalTitle" = "일정에 추가";
+
+"nZ5-a9-cON.normalTitle" = "새로 시작하고 새 그룹 만들기";
+
+"dfZ-9h-ybb.normalTitle" = "럽킷 요청하기";
+
+"68V-Jm-vU2.text" = "환영합니다!";
+
+"245-a7-etc.text" = "만약 상대방이 이미 그룹을 생성 했다면";
+
+"zJ1-sb-XFb.normalTitle" = "그룹 참여하기";
